@@ -1,7 +1,7 @@
 import streamlit as st
 from hr_analytics_functions import *
 
-st.sidebar.image('streamlit/images/hr_analytics.png', width=250)
+st.sidebar.image('https://d2lk14jtvqry1q.cloudfront.net/media/large_01_articolo_1200x630_1_1024x538_1024x537_aca1aba709.png', width=250)
 st.sidebar.header('HR Analytics: Job Change of Data Scientists')
 st.sidebar.markdown('Prediction who will move to a new job')
 
