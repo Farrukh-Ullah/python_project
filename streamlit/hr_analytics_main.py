@@ -15,7 +15,7 @@ st.write('<style>div.row-widget.stRadio > div{flex-direction:row;}</style>', uns
 st.sidebar.markdown('---')
 st.sidebar.write('Project Submitted By: Farrukh Wajahat Ullah and Vaseem Shuaib')
 st.sidebar.write('Github Repositories:')
-st.sidebar.write('[Farrukh Github Repository Link](https://github.com/Farrukh-Ullah/Python-programming-project-UNIVR)')
+st.sidebar.write('[Farrukh Github Repository Link](https://github.com/Farrukh-Ullah/python_project)')
 st.sidebar.write('[Vaseem Github Repository Link](https://github.com/Ne04ever/Intern_classification)')
 if menu == 'Intro':
     set_home()
