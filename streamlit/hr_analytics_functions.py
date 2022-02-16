@@ -6,8 +6,8 @@ import seaborn as sns
 from hr_analytics_variables import *
 
 # Importing data
-eda_data = pd.read_csv(r'C:\Users\lenovo\Downloads\python\src\data\clean.csv')
-data = pd.read_csv(r'C:\Users\lenovo\Downloads\python\src\data\df.csv', index_col=False)
+eda_data = pd.read_csv(r'https://raw.githubusercontent.com/Farrukh-Ullah/python_project/master/notebooks/clean.csv')
+data = pd.read_csv(r'https://raw.githubusercontent.com/Farrukh-Ullah/python_project/master/notebooks/df.csv', index_col=False)
 pt1 = pd.pivot_table(eda_data, index='target',columns = 'experience_lvl', values='city_dev_perc')
 pt2 = pd.pivot_table(eda_data, index=['target','company_class',], values='city_dev_perc')
 pt3 = pd.pivot_table(eda_data, index=['target','gender',], values='training_hours')
