@@ -184,7 +184,7 @@ def set_Piyottbl():
 
 def set_classmod():
     st.title("*Classification Model*")
-    st.write("We applied two classification models, logistics regression and random forest model. They gave a mean absolute error of ***0.5636743215031316*** and ***0.28369519832985385*** For the models. These results can be improved further by optimizing")
+    st.write("We applied two classification models, logistics regression and random forest model. They gave a mean absolute error of ***0.563*** and ***0.283*** For the models. These results can be improved further by optimizing")
     st.subheader("*Prediction Using Regression Model*")
     st.write("##### Accuracy:")
     st.write(mean_absolute_error(y_test, pred))
