@@ -183,12 +183,14 @@ def set_Piyottbl():
     st.dataframe(pt4)
 
 def set_classmod():
-    st.title("*Prediction Using Regression Model*")
+    st.title("*Classification Model*")
+    st.write("We applied two classification models, logistics regression and random forest model. They gave a mean absolute error of ***0.5636743215031316*** and ***0.28369519832985385*** For the models. These results can be improved further by optimizing")
+    st.subheader("*Prediction Using Regression Model*")
     st.write("##### Accuracy:")
     st.write(mean_absolute_error(y_test, pred))
     st.set_option('deprecation.showPyplotGlobalUse', False)
 
-    st.title("*Prediction Using Random Forest*")
+    st.subheader("*Prediction Using Random Forest*")
     st.write("##### Accuracy:")
     st.write(mean_absolute_error(y_test, pred1))
 
