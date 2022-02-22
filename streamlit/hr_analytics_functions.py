@@ -188,7 +188,6 @@ def set_classmod():
     st.subheader("*Prediction Using Regression Model*")
     st.write("##### Accuracy:")
     st.write(mean_absolute_error(y_test, pred))
-    st.set_option('deprecation.showPyplotGlobalUse', False)
 
     st.subheader("*Prediction Using Random Forest*")
     st.write("##### Accuracy:")
