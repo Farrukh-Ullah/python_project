@@ -186,11 +186,11 @@ def set_classmod():
     st.title("*Classification Model*")
     st.write("We applied two classification models, logistics regression and random forest model. They gave a mean absolute error of ***0.563*** and ***0.283*** For the models. These results can be improved further by optimizing")
     st.subheader("*Prediction Using Regression Model*")
-    st.write("##### Accuracy:")
+    st.write("##### Mean Absolute Error:")
     st.write(mean_absolute_error(y_test, pred))
 
     st.subheader("*Prediction Using Random Forest*")
-    st.write("##### Accuracy:")
+    st.write("##### Mean Absolute Error:")
     st.write(mean_absolute_error(y_test, pred1))
 
 
